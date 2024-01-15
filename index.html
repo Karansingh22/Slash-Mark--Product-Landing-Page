@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="output.css"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tech Gadget Landing Page</title>
+
+    <style>
+
+body {
+            background: url('/dist/image/tech background 1.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+
+        /* portfolio start */
+        .work-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 40px;
+            margin: 40px 100px;
+        }
+
+  .work{
+    border-radius: 10px;
+    position: relative;
+    overflow:hidden;
+    margin: 15px;
+
+  }
+  .work img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+  }
+  .layer{
+    width: 100%;
+    height:0;
+    background: linear-gradient(rgba(56, 221, 243, 0.5),#2c09c9);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow:hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+
+  }
+  .layer h3{
+    font-weight: 600;
+    margin: 20px;
+    color: white;
+  }
+  .work:hover img{
+    transform: scale(1.1);
+
+  }
+  .work:hover .layer{
+    height: 100%;
+  }
+
+  /* portfolio ends */
+    </style>
+</head>
+
+<body class="k">
+
+  <!-- Nav bar -->
+<nav class="w-full h-14 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% flex justify-between px-4 md:px-4 items-center">
+  <div class="text-4xl text-black font-bold">KS</div>
+  <ul class="md:flex font-semibold">
+      <li class="mx-4 cursor-pointer"><a href="#home">Home</a></li>
+      <li class="mx-4 cursor-pointer"><a href="#">About Us</a></li>
+      <li class="mx-4 cursor-pointer"><a href="#product">Product</a></li>
+      <li class="mx-4 cursor-pointer"><a href="#cont">Contact Us</a></li>
+  </ul>
+</nav>
+<!-- Nav bar end -->
+
+
+    <div class="relative overflow-hidden" id="home">
+        <div class="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
+            <div class="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
+                <div class="sm:max-w-lg">
+                    <h1 class="text-2xl font-bold tracking-tight text-white sm:text-6xl">MagicOfGadget</h1>
+                    <p class="mt-4 text-xl text-gray-200">Unlock the Future with MagicOfGadget – Where Innovation Meets Everyday Life!.</p>
+                </div>
+                <div>
+                    <div class="mt-10">
+                        <!-- Decorative image grid -->
+                        <div aria-hidden="true"
+                            class="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl">
+                            <!-- Image grid content goes here -->
+                        </div>
+
+                        <a href="#product" class="inline-block rounded-md border border-transparent px-8 py-3 text-center font-medium bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">Shop
+                            Collection</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- More content... -->
+
+   <!-- about section start -->
+
+   
+
+
+    <!-- about section end -->
+  
+
+    <div id="product">
+      <h2 class="font-semibold text-4xl text-center text-white">Product Details</h2>
+        <div class="containers">
+          <div class="work-list">
+            <div class="work">
+              <img src="/dist/image/GD 4 rts All in One Combo Card Reader.webp" alt="error">
+              <div class="layer">
+                <h3>The Rts (Radhey Techno Servies) Supports: T-Flash card, MS, MS Pro, MS Duo, MS Pro Duo, Mini SD, SD, RS, MMC, Micro MS- M2
+                  3 USB Hub With High speed USB 2.0 Connectivity.
+                  <button class="bg-sky-500  text-center mt-2 text-white text-base p-2 rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500"><a href="https://www.amazon.in/rts-Cameras-Mobiles-Notebook-Docking/dp/B01MTC19LG/ref=sr_1_33?keywords=All+New+Gadgets&sr=8-33">Buy Now</a></button> </h3>
+              </div>
+            </div>
+            <div class="work">
+              <img src="/dist/image/G D 6 Portronics AUTO 12.webp" alt="error">
+              <div class="layer">
+                <h3>Now turn your non-Bluetooth car stereo system into Bluetooth simply with the Auto 12. This wireless gadget is designed to let you stream music from your phone to your car stereo system, without the hassle of wires.
+                  <button class="bg-sky-500  text-center mt-2 text-white text-base p-2 rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500"><a href="https://www.amazon.in/Portronics-Bluetooth-Receiver-Handsfree-Smartphones/dp/B08SMGMMVT/ref=sr_1_10?keywords=All%2BNew%2BGadgets&sr=8-10&th=1">Buy Now</a></button></h3>
+              </div>
+            </div>
+            <div class="work">
+              <img src="/dist/image/GD 3 Istara 360 Degree.jpg" alt="error">
+              <div class="layer">
+                <h3>[360 Degree Rotating Sprinkler ]--:45 tilt angle 360 degrees rotation wide range sink cleaning ,Water can easily covers the whole sink.
+                  <button class="bg-sky-500  text-center mt-2 text-white text-base p-2 rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500"><a href="https://www.amazon.in/Stainless-Water-Saving-Sprinkler-Adjustable-Universal/dp/B096NV8ND3/ref=sr_1_22_sspa?keywords=All+New+Gadgets&sr=8-22-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1">Buy Now</a></button></h3>
+              </div>
+            </div>
+  
+            <div class="work">
+              <img src="/dist/image/GD 3 Portronics MODESK.jpg" alt="error">
+              <div class="layer">
+                <h3>MoDesk - a Premium Quality Mobile Holders for your Ofﬁce Desks. It can hold, on your work desk, any type of smartphone & tablets with size up to 7 inches easily. 
+                  <button class="bg-sky-500  text-center mt-2 text-white text-base p-2 rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">Buy Now</button></h3>
+              </div>
+            </div>
+            <div class="work">
+              <img src="/dist/image/G D 9 DJI Mini 3 Pro.webp" alt="error">
+              
+              <div class="layer">
+                <h3>Despite its higher price, this feels like the perfect drone for beginners, those who like to travel, or really anyone in the market for a light-weight, high tech drone..
+                  <button class="bg-sky-500  text-center mt-2 text-white text-base p-2 rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">Buy Now</button>
+                </h3>
+              </div>
+            </div>
+            
+            <div class="work">
+              <img src="/dist/image/G D 13 Antson Portable High Power Car Vacuum.jpg" alt="error">
+              <div class="layer">
+                <h3>The Antson vacuum cleaner is Portable, Lightweight, Compact, Washable Filter, HEPA.
+                  <button class="bg-sky-500  text-center mt-2 text-white text-base p-2 rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500"><a href="https://www.amazon.in/Antson-Portable-Rechargeable-Traveling-Sustainable/dp/B0CKF1NQ35">Buy Now</a></button>
+                </h3>
+              </div>
+            </div>
+            <div class="work">
+              <img src="/dist/image/G D 14 ARROM Pro Car Vacuum Cleaner.jpg " alt="error">
+              <div class="layer">
+                <h3>ARROM Vacuum car with 5M (16.4feet) power cord helps clean any hard-to-reach area. 75db low noise, easy to operate..
+                  <button class="bg-sky-500  text-center mt-2 text-white text-base p-2 rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500"><a href="https://www.amazon.in/ARROM-Cleaner-Powerful-Anti-Bacterial-Cleaning/dp/B0BHNZCFL8/ref=psdc_5257490031_t1_B0CPJL47NC">Buy Now</a></button>
+                </h3>
+              </div>
+            </div>
+
+            <div class="work">
+              <img src="/dist/image/G D 15 Carlinkit 5.0.webp" alt="error">
+              <div class="layer">
+                <h3>New CarlinKit 5.0: CarlinKit 5.0 is a 2-in-1 wireless adapter that provides you with a dual smart experience of wireless CarPlay and wireless Android Auto.
+                  <button class="bg-sky-500  text-center mt-2 text-white text-base p-2 rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500"><a href="https://www.amazon.in/dp/B0CNPHRL1N/ref=sspa_dk_detail_1?psc=1&pd_rd_i=B0CNPHRL1N&s=electronics&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWwy">Buy Now</a></button>
+                </h3>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  
+
+      <div class="container">
+        <h3 class="font-semibold text-4xl text-center text-white">Cool gadgets and new tech for 2024</h3>
+        
+        <div class="sm:h-full mt-7 mb-2  mx-14">
+            <div class="w-full mx-auto bg-white rounded-lg">
+                <div class="md:flex">
+                    <div>
+                        <img class="h-50 w-full object-cover md:h-full md:w-86" src="/dist/image/G D 10 VAHA S Fitness Mirror.webp" alt="error">
+                    </div>
+                    <div class="p-8">
+                        <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">VAHA S Fitness Mirror</div>
+                        <h5>Sure, you could go to the gym... or, the gym could come to you. That's the idea of the Vaha S Fitness Mirror, giving you a full-size mirror that can play over 850 workout classes and connect you with personal trainers in real-time.
+    
+                           The mirror itself is a 32-inch Full HD touchscreen, complete with 30W speakers and a brushed metal finish.
+                           
+                           While this is without a doubt one of the more impressive home workout options, it is also pretty pricey. The mirror alone will cost you £1195, and then there is a £39 a month payment to access classes.</h5>
+                        <button class="bg-sky-500 text-center mt-2 text-white text-base p-2 rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">
+                            <a href="https://uk.vaha.com/fitness-mirror-vaha-s/">£1,750 Buy Now</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="sm:h-full mt-7 mx-14">
+            <div class="w-full mx-auto bg-white rounded-lg">
+                <div class="md:flex">
+                    <div>
+                        <img class="h-50 w-full object-cover md:h-full md:w-86" src="/dist/image/G D 8 Meta Quest Pro.webp" alt="error">
+                    </div>
+                    <div class="p-8">
+                        <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Meta Quest Pro</div>
+                        <h5>Ah yes, the metaverse - the supposed future of our digital world. While this new virtual land hasn't exactly begun successfully, many tech leaders are still very much of the view that we'll soon be plugged in, enjoying our own digital house, job, and life.
+        
+                            If you want to get in now and enjoy the metaverse and virtual reality, the Meta Quest Pro 2 will likely be the best way to do this. Meta, previously known as Facebook, has poured money into this to offer the latest and most impressive specs available in the world of VR.
+        
+                            With all of its fancy new features and functions, comes a massive price tag of £1,499. It's the best VR can be right now, but the investment is only worthwhile for those who can't wait for the metaverse..
+                        </h5>
+                        <button class="bg-sky-500 text-center mt-2 text-white text-base p-2 rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">
+                            <a href="https://www.sciencefocus.com/future-technology/cool-gadgets">£1,499 Buy Now</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sm:h-full mt-7 mx-14">
+          <div class="w-full mx-auto bg-white rounded-lg">
+              <div class="md:flex">
+                  <div>
+                      <img class="h-50 w-full object-cover md:h-full md:w-86" src="/dist/image/G D 11 KODAK Luma 150 Pocket Projector.webp" alt="error">
+                  </div>
+                  <div class="p-8">
+                      <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Meta Quest Pro</div>
+                      <h5>
+                        THE ULTIMATE MULTIMEDIA COMPANION | Tiny Projector Makes a Wonderful Gift Idea for Home, Office or Business | Beyond Entertainment, Use it to Enlarge Images for Staff Meetings, Instructional Seminars, Product Conventions & More Note: Copyrighted content from Hulu, Netflix, and similar services CAN NOT be mirrored or screencast.
+                        FROM SMARTPHONE TO THE BIG SCREEN | Pocket Projector Produces Bright, Vivid Video & Imaging Up to 150” for Amazing Home Entertainment; Watch Movies, View Pictures or Give Presentations Anywhere a Wall is Available!
+                      </h5>
+                      <button class="bg-sky-500 text-center mt-2 text-white text-base p-2 rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">
+                          <a href="https://www.amazon.in/KODAK-Luma-Pocket-Projector-Built/dp/B07RLXZ88F">£1,550 Buy Now</a>
+                      </button>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+    </div>
+    
+<!-- Add this at the end of your HTML body -->
+<footer class="bg-gray-800 text-white p-4 text-center mt-9" id="cont">
+  <div class="container mx-auto">
+      <p>&copy; 2024 MagicOfGadget - Made By KS.</p>
+      <p>Contact us at: <a href="#">info@magicxyzz.com</a></p>
+      <p>Follow us on social media: <a href="#" target="_blank">Facebook</a>, <a href="#" target="_blank">Twitter</a>, <a href="#" target="_blank">Instagram</a></p>
+  </div>
+</footer>
+
+      
+</body>
+
+</html>
